@@ -1,0 +1,31 @@
+
+.homepageCard{
+    background: linear-gradient(rgb(28, 46, 28),white);
+}
+.homePageCardBody{
+    width: 18rem;
+    box-shadow: 5px 8px 10px 1px gray;
+    background-color: rgb(161, 243, 243);
+    margin: 30px;
+
+}
+
+.homePageCardcol:hover{
+    scale: 1.08;
+    transition: 0.3s ease-in-out;
+}
+.homepageCardBtn{
+    background-color: #0f05b1bd;
+    color: white;
+    box-shadow: 4px 5px 9px 2px rgb(43, 42, 42);
+    border: 1px solid gray;
+    
+}
+
+@media only screen and (max-width:872px){
+    .video-text{
+        font-size: 1.5rem;
+    }
+}
+
+
