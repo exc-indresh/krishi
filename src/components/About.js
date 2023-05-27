@@ -1,4 +1,5 @@
 import React from 'react'
+import firstpro2 from "../img/firstpro2.jpg"
 import "./About.css"
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
     <>
     <div style={{ margin: `50px`, display: `flex`, flexDirection: `row`, justifyContent: `center` }}>
     <div className="e-card e-card-horizontal" style={{ width: `400px` }}>
-        <img src="./Code.png" alt="Sample" style={{ height: `180px` }}/>
+        <img src={firstpro2} alt="Sample" style={{ height: `180px` }}/>
         <div className="e-card-stacked">
             <div className="e-card-header">
                 <div className="e-card-header-caption">

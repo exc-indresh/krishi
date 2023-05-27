@@ -11,6 +11,7 @@ import Agrimachinery from "./components/Agrimachinery";
 import Agris from "./components/Agris";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Footer from "./components/footer";
 
 function App() {
   let initJob;
@@ -166,6 +167,7 @@ function App() {
            <Route exact path="/login"><Login></Login></Route>
            <Route exact path="/signup"><Signup></Signup></Route>
           </Switch>
+          <Footer/>
         </div>
       </Router>
     </>
