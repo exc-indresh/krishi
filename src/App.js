@@ -13,6 +13,7 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Footer from "./components/footer";
 
+
 function App() {
   let initJob;
   if (localStorage.getItem("jobs") === null) {
